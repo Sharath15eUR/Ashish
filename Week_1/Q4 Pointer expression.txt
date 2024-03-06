@@ -1,0 +1,9 @@
+Expression for fetching the required array element: *(*(*(*(a + i) + j) + k) + 2)
+
+
+Explanation:
+- a is the base address of the 4-dimensional array.
+- (a + i) moves to the ith element along the first dimension.
+- (*(a + i) + j) moves to the jth element along the second dimension.
+- *(*(a + i) + j) + k) moves to the kth element along the third dimension.
+- *(*(*(a + i) + j) + k) + 2) fetches the value of the element at the 2nd index along the fourth dimension.
